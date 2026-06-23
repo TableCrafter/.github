@@ -1,54 +1,56 @@
-# Welcome to TableCrafter
+# TableCrafter
 
-### Data-Driven Tools for WordPress Creators
+**WordPress data tools — built for teams that work with real data.**
 
-We build a suite of powerful, developer-friendly plugins designed to transform how you work with data in WordPress. From interactive timelines to advanced charts and high-conversion lead magnets, our ecosystem is built for performance and flexibility.
-
----
-
-## 🛠️ The Ecosystem
-
-### 📅 [EventCrafter](https://github.com/TableCrafter/eventcrafter-visual-timeline)
-**Responsive Timelines & Roadmaps**
-Build stunning, interactive timelines and roadmaps for WordPress with a powerful visual builder.
-*   **Key Features:** Visual Builder, Gutenberg Native, Multi-Layout Support (Horizontal/Vertical).
-
-### 📊 [TableCrafter](https://github.com/TableCrafter/wp-data-tables)
-**The Ultimate Data Table Solution**
-Create dynamic, SEO-friendly WordPress data tables from any JSON API or file with SSR, Live Search, and Pagination.
-*   **Key Features:** Gutenberg Support, Live Search, Pagination, API-First.
-
-### 🃏 [CardCrafter](https://github.com/TableCrafter/cardcrafter-data-grids)
-**JSON → Beautiful Card Grids**
-Transform JSON data sources into responsive, customizable card layouts with native Gutenberg support.
-*   **Key Features:** Secure Proxy, SWR Caching, Masonry Layouts.
-
-### 🧲 [LeadCrafter](https://github.com/TableCrafter/leadcrafter-lead-magnets)
-**Grand Slam Lead Magnets**
-The ultimate tool for capturing leads with high-performance, stylish lead magnets integrated with Kit.com.
-*   **Key Features:** Zero-Touch Setup, Fallback Handling, Developer API.
-
-### 📈 [WP Data Visualizer](https://github.com/TableCrafter/wp-data-visualizer)
-**Interactive Charts for WordPress**
-Turn your JSON data into stunning, interactive charts powered by Chart.js.
-*   **Key Features:** Multiple Chart Types, Real-time Updates, Zero-Dependency Core.
+We make plugins that turn WordPress into a functional data layer. Filter, edit, export, and automate — without leaving the page, writing custom code, or exporting to a spreadsheet.
 
 ---
 
-## 🏗️ Developer Libraries
+## Flagship Plugin
 
-### 📦 [TableCrafter Core](https://github.com/TableCrafter/tablecrafter)
-A high-performance JS library with complete WordPress plugin parity. Zero dependencies, mobile-first, and API-ready.
+### [TableCrafter](https://github.com/TableCrafter/tablecrafter) — Advanced Data Tables for WordPress
 
-### 📊 [ChartCrafter](https://github.com/TableCrafter/chartcrafter)
-A lightweight, standalone JavaScript library for visualizing JSON data into beautiful, interactive charts.
+Display, filter, and inline-edit data from any source as a responsive frontend table.
+
+**Supported data sources:**
+- Gravity Forms entries
+- WooCommerce orders & products
+- Airtable bases
+- Google Sheets (public & private)
+- REST APIs & JSON endpoints
+- MySQL custom tables
+- CSV / Excel files
+
+**Key capabilities:** Inline cell editing · Role-based permissions · Column-level visibility · Live search & multi-select filters · CSV / XLSX / PDF export · Data bars · Status badges · Email alerts · Auto-refresh · Bulk actions · Entry duplication
+
+Available free on [WordPress.org](https://wordpress.org/plugins/gravity-tables/) · Pro at [tablecrafter.com](https://tablecrafter.com)
 
 ---
 
-## 🚀 Our Philosophy
-*   **Performance First:** We obsess over milliseconds and efficient data fetching.
-*   **Security by Design:** We use strict validation and secure proxies (like `wp_safe_remote_get`).
-*   **Developer Friendly:** Hooks, filters, and clean APIs for everything.
+## The Ecosystem
+
+| Plugin | What it does |
+|---|---|
+| [TableCrafter](https://github.com/TableCrafter/tablecrafter) | Data tables from any source — filterable, editable, exportable |
+| [CardCrafter](https://github.com/TableCrafter/cardcrafter-data-grids) | JSON → responsive card grids with Gutenberg support |
+| [EventCrafter](https://github.com/TableCrafter/eventcrafter-visual-timeline) | Timelines, roadmaps, and event schedules |
+| [LeadCrafter](https://github.com/TableCrafter/leadcrafter-lead-magnets) | Lead magnets with Kit.com integration |
+| [WP Data Visualizer](https://github.com/TableCrafter/wp-data-visualizer) | Interactive Chart.js charts from JSON |
 
 ---
-*Built with ❤️ by the TableCrafter Team*
+
+## Developer Libraries
+
+| Library | What it does |
+|---|---|
+| [tablecrafter.js](https://github.com/TableCrafter/tablecrafter.js) | Standalone JS table library — zero dependencies, API-ready |
+| [ChartCrafter](https://github.com/TableCrafter/chartcrafter) | Lightweight JS chart library built on Chart.js |
+
+---
+
+## Philosophy
+
+- **Source-agnostic** — the table UI is the same regardless of where the data lives
+- **Performance first** — SWR caching, lazy loading, selective script enqueue
+- **Security by design** — SSRF protection, capability checks, encrypted credential storage
+- **Developer friendly** — PHP hooks, JS events, custom data source API

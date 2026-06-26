@@ -1,6 +1,6 @@
 # TableCrafter
 
-[TableCrafter Official Website]([https://github.com/TableCrafter/tablecrafter](https://tablecrafter.com/)
+[TableCrafter Official Website](https://tablecrafter.com/)
 
 **WordPress data tools — built for teams that work with real data.**
 

@@ -86,7 +86,7 @@ Then add `[tablecrafter id="1"]` to any post or page.
 
 | Plugin | What it does |
 |---|---|
-| [TableCrafter Free](https://github.com/TableCrafter/tablecrafter-free) | Data tables from any source: filterable, editable, exportable |
+| [TableCrafter](https://github.com/TableCrafter/tablecrafter) | Data tables from any source: filterable, editable, exportable |
 | [CardCrafter](https://github.com/TableCrafter/cardcrafter-data-grids) | JSON into responsive card grids with Gutenberg support |
 | [EventCrafter](https://github.com/TableCrafter/eventcrafter-visual-timeline) | Timelines, roadmaps, and event schedules |
 | [LeadCrafter](https://github.com/TableCrafter/leadcrafter-lead-magnets) | Lead magnets with Kit.com integration |
@@ -99,7 +99,7 @@ Then add `[tablecrafter id="1"]` to any post or page.
 
 **[tablecrafter.js](https://github.com/TableCrafter/tablecrafter.js)** is the MIT-licensed JavaScript library powering the rendering layer. It ships as ESM, CJS, and UMD, weighs ~27 KB min+gz, carries 970+ tests, and works in any framework or plain HTML page.
 
-**[tablecrafter-free](https://github.com/TableCrafter/tablecrafter-free)** is the distribution repository for the free WordPress plugin. Every release is mirrored here and shipped to WordPress.org.
+**[tablecrafter](https://github.com/TableCrafter/tablecrafter)** is the free WordPress plugin. Every release ships to WordPress.org.
 
 **What's next:** A v3 headless TypeScript rewrite of the JS library is in progress. Read the [v3 RFC](https://github.com/TableCrafter/tablecrafter.js/blob/main/docs/RFC-v3.md) for the roadmap and design decisions.
 
